@@ -1,16 +1,33 @@
 ---
+import MainHeader from "../components/sections/MainHeader.astro";
 import "../styles/global.css" 
+interface Props {
+	titulo: string;
+    idioma?: string;
+    description?: string;
+}
+//destructuring de arrays como objectos
+const { 
+    titulo = "Mi blog personal", 
+    idioma = "es",
+    description = "Portafolio personal de desarrollo y divulgación web: Javascript, CSS, PHP en el ámbito de HTML",
+} = Astro.props
+
 ---
 <!DOCTYPE html>
-<html lang="es">
+<html lang={Astro.props.idioma ?? "es"}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{Astro.props.titulo}</title>
-    <title>{Astro.props.idioma}</title>
-    
+    <meta name="description" content={description}>
+    <meta property="og:title" content={titulo}>
+    <meta property="og:description" content={description}>
+    <title>{titulo}</title>
+    <title>{idioma}</title>
+    <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
 </head>
 <body>
+    <MainHeader />
     <slot/>
 
 </body>
