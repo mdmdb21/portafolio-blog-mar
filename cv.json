@@ -1,0 +1,57 @@
+{
+    "basics": {
+        "name": "María del Mar Duvale Barbeitos",
+        "label": "graduada en geografía y ordenación del territorio",
+        "image":"",
+        "email":"mduvbar.appventurers@gmail.com",
+        "phone":"+34 666223344",
+        "summary": "experiencia en el desarrollo de cartografía a través de software como ArcMap y QGIS, en especial aplicado al mundo forestal. Así como el uso de RPAS en el ámbito de la ordenación forestal. Actualmente Aprendiendo el desarrollo de aplicaciones con tecnología WEB y realidad aumentada.",
+        "location": {
+            "address":"",
+            "postalCode": "15777",
+            "city": "Santiago de Compostela",
+            "country": "España"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username":"mdmdb21",
+                "url": "https://github.com/mdmdb21"
+            }
+        ]
+
+    },
+    "work": [{
+        "name": "Cersia empresa",
+        "position": "estudiante-trabajador",
+        "startDate": "2023-10-02",
+        "endDate": "Actualidad"
+    }],
+    "volunteer": [{
+        "organization": "Youth-mappers usc",
+        "position": "voluntario",
+        "startDate": "2019-02-02",
+        "endDate": "2020-03-10",
+        "summary": "Mapeo de mapas de zonas remotas y desfavorecidas para facilitar el acceso de ayuda humanitaria"
+    }],
+    "education": [
+        {
+            "institution": "Universidad de Santiago de Compostela",
+            "area": "geógrafa especializada en cartografía de sistemas de información geográfica (SIG)",
+            "studyType": "estudiante",
+            "startDate": "2016-10-14",
+            "endDate": "2022-09-15"
+        },
+        {
+            "institution": "Ingeniería Forestal Asefor S.L",
+            "area": "Gestión forestal sostenible",
+            "studyType": "contrato de prácticas",
+            "startDate": "2021-02-01",
+            "endDate": "2021-02-28",
+            "summary": "realicé prácticas en el ámbito forestal digitalizando mapas forestales de diversas zonas de España, así como aprender a usar drones para la gestión y aprovechamiento forestal"
+        }
+    ],
+    "languages": [{
+        
+    }]
+}
