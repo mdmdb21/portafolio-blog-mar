@@ -1,0 +1,16 @@
+<a href={Astro.props.enlace}>
+  <slot name="titulo"/>
+  <slot name="contenido">
+</a>
+
+<style>
+    a {
+        display: block;
+        padding: .5rem;
+        text-decoration: none;
+        color: #000;
+        background-color: #f2eff3;
+        border-radius: .5rem;
+    }
+    
+</style>

@@ -1,0 +1,25 @@
+---
+import NewCard from "../ui/NewCard.astro"
+import Card from "../ui/NewCard.astro"
+---
+<section>
+    <h2>Proyectos</h2>
+    <aside></aside>
+        <NewCard enlace="https://www.webferrol.com/">
+            <strong slot="titulo">bla bla bla</strong>
+            <p slot="contenido">personal website</p>
+        </NewCard>
+        <NewCard enlace="https://www.google.com/">
+            <strong slot="titulo">bla bla bla</strong>
+            <p slot="contenido">collección de bla bla</p>
+        </NewCard>
+        
+    </aside>
+</section>
+
+<style>
+    aside {
+        display: grid;
+        gap: 2rem;
+    }
+</style>
